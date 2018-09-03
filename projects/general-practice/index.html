@@ -5,64 +5,93 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Bootstrap Practice Projects</title>
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-                    <div class="dropdown-menu">
-                        <a href="#" class="dropdown-item">Link 1</a>
-                        <a href="#" class="dropdown-item">Link 2</a>
-                        <a href="#" class="dropdown-item">Link 3</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+            <a class="navbar-brand"href="#"><img src="images/logo.png" alt="Logo"></a>
+            <!-- <a class="navbar-brand" href="#">Bak-One</a> -->
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
-    <!-- FORMS -->
-    <div class="container">
-      <div class="form-group">
-          <label for="name">Name</label>
-          <input class="form-control" type="text" id="name" placeholder="Enter name">
-      </div>
-      <div class="form-group">
-          <label for="email">Email address</label>
-          <input class="form-control form-control-lg" type="email" id="email" placeholder="Enter email">
-          <small class="form-text text-muted">Your email will not ever be shared</small>
-      </div>
-      <div class="form-group">
-          <label for="company">Company</label>
-          <input class="form-control form-control-sm" type="text" id="company" placeholder="Enter company name">
-      </div>
-      <div class="form-group">
-          <label for="password">Password</label>
-          <input class="form-control" type="password" id="password" placeholder="Password" readonly>
-      </div>
+    <!-- Banner -->
+
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1>We Build <strong>Brand</strong></h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore alias omnis distinctio quas expedita consequatur odit similique doloremque porro.
+            </p>
+            <button class="greenButtons">Learn More</button>
+            <div>
+                <i class="fas fa-arrow-alt-circle-down"></i>
+            </div>
+        </div>
     </div>
 
+    <!-- Portfolio Section -->
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Portfolio</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <button class="greenButtons">All</button>
+                    <button class="greenButtons">Web Design</button>
+                    <button class="greenButtons">Graphic Design</button>
+                    <button class="greenButtons">Flat Design</button>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- 4 Icons -->
+
+    <section id="icons">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <img src="images/icon-1.png" alt="Icon 1">
+                    <img src="images/icon-2.png" alt="Icon 2">
+                    <img src="images/icon-3.png" alt="Icon 3">
+                    <img src="images/icon-4.png" alt="Icon 4">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
-
-  <h1> Bootstrap Practice</h1>
+<!-- <ul>
+<li><a href="#"><img src="images/icon-1.png" alt=""></a></li>
+<li><a href="#"><img src="images/icon-2.png" alt=""></a></li>
+<li><a href="#"><img src="images/icon-3.png" alt=""></a></li>
+<li><a href="#"><img src="images/icon-4.png" alt=""></a></li>
+</ul> -->
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

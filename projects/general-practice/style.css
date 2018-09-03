@@ -1,4 +1,95 @@
 
-body {
+@import url('https://fonts.googleapis.com/css?family=Dosis:200');
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+.bg-light {
+  background-color: #ffffff!important;
+}
+
+nav ul li {
+  margin-left: 30px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  background: #00e6ac;
+  padding: 10px;
+  color: #ffffff!important;
+}
+
+/* Banner */
+
+.jumbotron {
+  background: #737373;
+}
+
+.jumbotron h1 {
+  color: #ffffff;
+  font-family: 'Dosis', sans-serif;
+  font-size: 3rem;
+  margin-bottom: 3%;
+  letter-spacing: 3px;
+}
+
+.jumbotron h1 strong {
+  font-family: 'arial'
+}
+
+.jumbotron p {
+  font-family: 'Dosis', sans-serif;
+  color: #ffffff;
+  font-size: 1rem; 
+  max-width: 60%;
+  margin: 0 auto;
+  margin-bottom: 3%;
+}
+
+.greenButtons {
+  background: #00e6ac;
+  border: 1px solid #00e6ac;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px;
+  margin-bottom: 3%;
+}
+
+#portfolio button {
+  margin-left: 10px;
+  margin-bottom: 5%;
+}
+
+#portfolio p {
+  margin-bottom: 5%;
+}
+
+.fa-arrow-alt-circle-down{
+  font-size: 40px;
+  color: #ffffff;
+}
+
+#icons img {
+  width: 15%;
+  margin-left: 26px;
+}
+
+
+
+
+/* Media Queries */
+
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 5rem 3rem;
+  }
 }
